@@ -404,3 +404,31 @@
       box-shadow: 0 6px 16px rgba(0,0,0,0.3);
       transition: transform 0.2s ease;
     }
+
+    #footer{
+        width: 1600px;
+        height: auto;
+        background: url("./B13-A02-TechWave/assets/footer-bg.png");
+    }
+    .footer{
+        padding: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+    .media{
+        display: flex;
+        justify-content: center;
+        gap: 75px;
+        align-items: center;
+        color: white;
+        margin-bottom: 5px;
+    }
+    .logos{
+        text-align: center;
+        margin-bottom: 41px;
+    }
+    .copy{
+        text-align: center;
+        color: white;
+        margin-top: 60px;
+    }
