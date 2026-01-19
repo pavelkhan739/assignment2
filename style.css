@@ -283,6 +283,7 @@
     }
     #featured{
         width: 1600px;
+        height: auto;
         background-color: #1A0B2E;
     }
     .featured h1{
@@ -326,4 +327,80 @@
         font-weight: 600;
         color: #00FF88;
         gap: 2px;
+    }
+    
+    .host-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 80px 40px;
+    }
+
+    .host-section h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      text-align: center;
+      color: white;
+    }
+
+    .host-flex {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      border: 1px solid #250D44;
+      background-color: #250D44;
+      border-radius: 20px;
+      padding: 15px;
+    }
+
+    .host-image {
+      flex: 0 0 180px;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+
+    .host-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .host-info {
+      flex: 1;
+    }
+
+    .host-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 12px;
+      color: white;
+    }
+
+    .host-bio {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      color: #FAFAFA;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 20px;
+    }
+
+    .social-icons a {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #02254c34, #03044f38, #0904653b, #0c05623d);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease;
     }
