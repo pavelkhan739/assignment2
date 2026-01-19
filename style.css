@@ -418,7 +418,7 @@
     .media{
         display: flex;
         justify-content: center;
-        gap: 75px;
+        gap: 60px;
         align-items: center;
         color: white;
         margin-bottom: 5px;
@@ -431,4 +431,8 @@
         text-align: center;
         color: white;
         margin-top: 60px;
+    }
+    .gap{
+        margin-left: 15px;
+        margin-bottom: 95px;
     }
